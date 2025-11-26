@@ -1,0 +1,28 @@
+[
+    {
+      "id": "A101",
+      "name": "Pradhan Mantri Kisan Yojana (PMKY)",
+      "state": "Central",
+      "focus": "Farmer income support",
+      "criteria": {
+        "occupation": ["Farmer", "Agriculturist"],
+        "income_max": 150000,
+        "land_ownership": true
+      },
+      "documents": ["Aadhar Card", "Land Ownership Proof", "Bank Passbook"],
+      "link_search_term": "Pradhan Mantri Kisan Yojana official application link"
+    },
+    {
+      "id": "B202",
+      "name": "Bihar Fasal Rahat Yojana (BFRY)",
+      "state": "Bihar",
+      "focus": "Crop failure compensation",
+      "criteria": {
+        "occupation": ["Farmer"],
+        "income_max": 75000,
+        "damage_report_required": true
+      },
+      "documents": ["Aadhar Card", "Crop Damage Report", "Bank Passbook"],
+      "link_search_term": "Bihar Fasal Rahat Yojana official portal"
+    }
+]

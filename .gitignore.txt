@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & Secrets
+.venv/
+.env
+# Database files (if you use ChromaDB or similar)
+data/*.sqlite
